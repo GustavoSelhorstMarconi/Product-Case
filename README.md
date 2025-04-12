@@ -14,11 +14,14 @@ cd Product-Case
 Abra o arquivo appsettings.json no projeto da API (geralmente em src/ProductApi).
 
 Localize a seção ConnectionStrings e insira a string de conexão do seu SQL Server:
+
+```json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=SEU_SERVIDOR;Database=NOME_DO_BANCO;User Id=SEU_USUARIO;Password=SUA_SENHA;TrustServerCertificate=True;"
   }
 }
+```
 Substitua SEU_SERVIDOR, NOME_DO_BANCO, SEU_USUARIO e SUA_SENHA pelos dados do seu ambiente.
 
 ### 3. Execute as Migrations
